@@ -1,0 +1,12 @@
+.news-overview {
+    --gap: 2rem;
+    --columns: 4;
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--gap);
+
+    &__item {
+        width: calc((100% / var(--columns)) - var(--gap) + (var(--gap) / var(--columns)));
+    }
+}

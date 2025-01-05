@@ -1,0 +1,51 @@
+[{
+    "mainMenu": [
+        {
+        "id": 1,
+        "name": "Nieuws",
+        "url": "/category1"
+        },
+        {
+        "id": 2,
+        "name": "Boulevard",
+        "url": "/category2"
+        },
+        {
+        "id": 3,
+        "name": "TV",
+        "url": "/category3"
+        }
+    ],
+    "subMenu": [
+        {
+        "id": 1,
+        "name": "Algemeen",
+        "url": "/category1/1"
+        },
+        {
+        "id": 2,
+        "name": "Economie",
+        "url": "/category1/2"
+        },
+        {
+        "id": 3,
+        "name": "Sport",
+        "url": "/category1/3"
+        },
+        {
+        "id": 4,
+        "name": "Politiek",
+        "url": "/category1/4"
+        },
+        { 
+        "id": 5,
+        "name": "Lifestyle",
+        "url": "/category1/5"
+        },
+        {
+        "id": 6,
+        "name": "Uitzendingen",
+        "url": "/category1/6"
+        }
+    ]
+}]

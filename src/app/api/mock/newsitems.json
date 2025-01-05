@@ -1,0 +1,11 @@
+{
+    "data" : [
+        {
+            "id": 1,
+            "category": "Sport",
+            "title": "Ajax wint van PSV",
+            "image": "https://redactie.rtl.nl/sites/default/files/ANP211024089-1.jpg?itok=9ZVuPpyV&width=694&height=395&impolicy=semi_dynamic",
+            "link": "/news/1"
+        }
+    ]
+}

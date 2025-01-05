@@ -1,0 +1,26 @@
+.menu {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    &-item {
+        display: flex;
+        align-items: center;
+        height: 3rem;
+        cursor: pointer;
+        transition: color 0.3s;
+        border-bottom: 1px solid transparent;
+        font-size: 16px;
+        color: grey;
+        font-family: sans-serif;
+        text-decoration: none;
+
+        &:hover {
+            border-color: black;
+            color: black;
+        }
+        &-active {
+            border-color: black;
+            color: black;
+        }
+    }
+}

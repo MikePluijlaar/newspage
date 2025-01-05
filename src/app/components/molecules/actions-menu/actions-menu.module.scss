@@ -1,0 +1,16 @@
+.actions-menu{ 
+    margin-left: auto;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    font-family: sans-serif;
+
+    &__dropdown {
+        display: none;
+    }
+
+    &__search{
+        width: 2rem;
+        height: 2rem;
+    }
+}
