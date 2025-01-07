@@ -4,22 +4,22 @@ import { render, screen } from '@testing-library/react';
 import { Menu } from './menu';
 
 const testData = [
-        {
-            id: 1,
-            name: "Nieuws",
-            url: "/category1"
-        },
-        {
-            id: 2,
-            name: "Boulevard",
-            url: "/category2"
-        },
-        {
-            id: 3,
-            name: "TV",
-            url: "/category3"
-        }
-    ]
+    {
+        id: 1,
+        name: "Nieuws",
+        url: "/category1"
+    },
+    {
+        id: 2,
+        name: "Boulevard",
+        url: "/category2"
+    },
+    {
+        id: 3,
+        name: "TV",
+        url: "/category3"
+    }
+]
 
 
 // Test if the menu is rendered correctly

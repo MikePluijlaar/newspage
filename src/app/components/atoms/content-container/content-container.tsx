@@ -7,4 +7,4 @@ export const ContentContainer = ({ children }: { children: ReactNode }) => {
             {children}
         </div>
     );
-} 
+}

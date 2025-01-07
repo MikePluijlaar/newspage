@@ -3,9 +3,9 @@ import { NewsBlock } from "../../molecules/news-block/news-block";
 import styles from "./news-overview.module.scss"
 
 export const NewsOverview = ({ news }: NewsOverviewProps) => {
-    const newsData = news[0].news;
+    const newsData = news;
     return (
-        <div className={styles["news-overview"]}>
+        <div className={styles["news-overview"]} data-testid="news-overview">
             {newsData.map((newsItem, index) => (
                 <div key={index} className={styles['news-overview__item']}>
                     <NewsBlock key={index} news={newsItem} variant={"medium"} />

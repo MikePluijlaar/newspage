@@ -1,4 +1,14 @@
 .news-overview {
+    @media only screen and (max-width: 960px) {
+        --gap: 2rem;
+        --columns: 3;
+    }
+
+    @media only screen and (max-width: 768px) {
+        --gap: 1rem;
+        --columns: 2;
+    }
+
     --gap: 2rem;
     --columns: 4;
     
@@ -9,4 +19,5 @@
     &__item {
         width: calc((100% / var(--columns)) - var(--gap) + (var(--gap) / var(--columns)));
     }
+
 }

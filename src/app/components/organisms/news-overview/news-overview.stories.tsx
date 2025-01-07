@@ -12,7 +12,7 @@ const meta: Meta = {
 const newsData = pageContextRegion(data, 'content');
 
 export const Default = () => {
-  return <NewsOverview news={newsData.blocks}></NewsOverview>
+  return <NewsOverview news={newsData.blocks[0].news}></NewsOverview>
 }
 
 export default meta;

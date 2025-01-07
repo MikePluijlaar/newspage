@@ -5,7 +5,7 @@ import styles from "./news-teaser.module.scss"
 export const NewsTeaser = ({news}: NewsOverviewProps) => {
     const newsData = news;
     return (
-        <div className={styles["news-teaser"]}>
+        <div className={styles["news-teaser"]} data-testid="news-teaser">
                 <div className={styles['news-teaser__headline']}>
                     <NewsBlock news={news[0]} variant={"large"} />
                 </div>
